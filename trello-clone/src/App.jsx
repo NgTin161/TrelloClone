@@ -3,6 +3,7 @@ import AccessAlarmIcon from '@mui/icons-material/AccessAlarm'
 import { pink } from '@mui/material/colors'
 import ThreeDRotation from '@mui/icons-material/ThreeDRotation'
 import HomeIcon from '@mui/icons-material/Home'
+
 function App() {
 
 
@@ -21,7 +22,7 @@ function App() {
 <HomeIcon color="success" />
 <HomeIcon color="action" />
 <HomeIcon color="disabled" />
-<HomeIcon sx={{ color: pink[130] }} />
+<HomeIcon sx={{ color: pink[500] }} />
 
     </>
   )
