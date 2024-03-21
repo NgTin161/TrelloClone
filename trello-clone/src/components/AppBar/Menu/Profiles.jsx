@@ -31,7 +31,7 @@ function Profiles() {
           aria-expanded={open ? 'true' : undefined}
         >
           <Avatar
-            sx={{ width: 30, height: 30 }}
+            sx={{ width: 34, height: 34 }}
             alt="TinNguyen  "
             src="https://scontent.fsgn8-4.fna.fbcdn.net/v/t39.30808-1/428600225_2503879639820760_6609521754103213029_n.jpg?stp=cp0_dst-jpg_p60x60&_nc_cat=109&ccb=1-7&_nc_sid=5f2048&_nc_ohc=ZXLtg1mCpggAX_6DZVR&_nc_ht=scontent.fsgn8-4.fna&oh=00_AfAtxG9GUeiX5QnP28rxE9So_fvy68bvaCXcSbamr0ppAA&oe=66003BC9"
           />
