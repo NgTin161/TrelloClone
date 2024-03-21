@@ -1,7 +1,6 @@
 // import { createTheme } from '@mui/material/styles'
 import { experimental_extendTheme as extendTheme } from '@mui/material/styles'
 import { teal, deepOrange, cyan, orange } from '@mui/material/colors'
-import OutlinedInput from '@mui/material/OutlinedInput'
 
 // Create a theme instance.
 
@@ -27,6 +26,23 @@ const theme = extendTheme({
   },
 
   components: {
+    MuiCssBaseline: {
+      styleOverrides:{
+        body: {
+          '*::-webkit-scrollbar':{
+            width: '8px',
+            height: '8px'
+          },
+          '*::-webkit-scrollbar-thumb': {
+            backgroundColor: '#bdc3c7',
+            boderRadius: '8px'
+          },
+          '*::-webkit-scrollbar-thumb:hover': {
+            backgroundColor: '#00b894'
+          }
+        }
+      },
+
     MuiButton: {
       styleOverrides: {
         root: {
@@ -65,6 +81,7 @@ const theme = extendTheme({
     }
   }
 
-})
+  }}
+)
 
 export default theme
