@@ -37,7 +37,7 @@ function ModeSelect() {
           '.MuiOutlinedInput-notchedOutline': { borderColor: 'white' },
           '&:hover .MuiOutlinedInput-notchedOutline': { borderColor: 'white' }, // chua được ??
           '&.Mui-focused .MuiOutlinedInput-notchedOutline': { borderColor: 'white' }, //
-          '.MuiSvgIcon-root' : { color: 'white' }
+          '.MuiSvgIcon-root': { color: 'white' } //
         }}
       >
         <MenuItem value="light">
@@ -47,12 +47,12 @@ function ModeSelect() {
         </MenuItem>
         <MenuItem value="dark">
           <Box sx={{ display: 'flex', alignItems: 'center', gap: 1 }}>
-            <DarkModeOutLinedIcon fontSize="smail"/> Dark
+            <DarkModeOutLinedIcon fontSize="smail" /> Dark
           </Box>
         </MenuItem>
         <MenuItem value="system">
           <Box sx={{ display: 'flex', alignItems: 'center', gap: 1 }}>
-            <SettingBrightnessIcon fontSize="smail"/> System
+            <SettingBrightnessIcon fontSize="smail" /> System
           </Box>
         </MenuItem>
       </Select>
